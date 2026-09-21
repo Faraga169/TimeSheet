@@ -38,6 +38,8 @@ namespace GlobalBrands.TimeSheet.PL.Controllers
                     UserName = registerViewModel.UserName,
                     Email = registerViewModel.UserName + "@test.com",
                     EmailConfirmed = true,
+                    PhoneNumber=registerViewModel.PhoneNumber,
+                    Address=registerViewModel.Address
 
                 };
                 
